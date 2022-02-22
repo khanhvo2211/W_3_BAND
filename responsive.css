@@ -1,0 +1,15 @@
+@media (min-width: 1024px) {}
+
+@media (max-width: 1024px) and ( min-width: 740px) {}
+
+@media (max-width: 740px) {
+    #nav>li {
+        display: block;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn {
+        display: none;
+    }
+}
